@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1280251060 source:c:\documents and settings\usuário\meus documentos\compilers\i386encoder\i386encode.cpp
+	"i386encode.h"
+	<iostream>
+
+1280251083 c:\documents and settings\usuário\meus documentos\compilers\i386encoder\i386encode.h
+	<fstream>
+
+1280252660 source:c:\documents and settings\usuário\meus documentos\compilers\i386encoder\main.cpp
+	<iostream>
+	"i386encoder.h"
+
+1280252711 c:\documents and settings\usuário\meus documentos\compilers\i386encoder\i386encoder.h
+	"i386encode.h"
+	"i386reg.h"
+
+1280251089 c:\documents and settings\usuário\meus documentos\compilers\i386encoder\i386reg.h
+
