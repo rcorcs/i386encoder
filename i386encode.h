@@ -528,7 +528,7 @@ IEncode imul_r_m(char mod, char reg, char rm);
 IEncode imul_r_i_r(char s, char reg1, char rm, int imm, int n_byte);
 
 //memory with immediate to register = 0110 10s1 : mod reg r/m : immediate data
-IEncode imul_m_i_r(char s, char mod, char reg, char reg, int imm, int n_byte);
+IEncode imul_m_i_r(char s, char mod, char reg, char rm, int imm, int n_byte);
 
 /************************************************************************
 * IN : Input From Port
